@@ -225,21 +225,53 @@ font-size: 100%;}
 
 
 
-
+ 
+    .b4-heading{height: 30%; width: 100%;}
+    .b4-heading4{padding-top: 5%; font-size: 200%;
+        text-align: center; color:orange; padding-bottom: 4%;
+        display: block;
+    }
 
 
 .baner4{ 
-    height:800px;width: 100%;
+    height:800px;width: 100%;display: flex;
     
     }
 
 
+   
+
+    .b4-box1{height: 70%; width: 40%;
+    margin: 2%; margin-left: 10%;
+    display: inline-block;  
+
+}
 
 
-    .b4-heading{height: 20%; width: 100%;}
-    .b4-heading4{padding-top: 5%; font-size: 200%;
-        text-align: center; color: orange;
-    }
+.b4-box2{height: 70%; width: 40%;
+  
+    display: inline-block;
+margin: 2%;
+}
+
+
+
+.b4-img{height: 100%; width: 100%; 
+box-shadow: 10px 10px 15px;}
+
+.b4-h1{padding-top: 10%; padding-left: 10%; color: green; font-size: 200%;}
+
+
+.b4-p{padding-top: 5%; padding-left: 10%; padding-right: 5%; font-size: 100%}
+
+.b4-btn{background-color: orange; 
+     height: 10%; width: 30%;
+      margin-top: 10%; margin-left: 30%;
+    border: none; border-radius: 20px;
+box-shadow: 5px 5px 15px; 
+font-size: 150%;}
+
+
 
 
 
@@ -260,25 +292,103 @@ font-size: 100%;}
         height:800px;width: 100%;
         background-color: azure;
         
+        } 
+
+
+        .b5-heading{height: 20%; width: 100%;}
+        .b5-heading5{padding-top: 5%; font-size: 200%;
+            text-align: center; color:orange;
+            display: block; 
         }
+    
 
 
 
+        .b5-input-box{height: 60%; width: 70%;
+          margin: auto;}
+            
+            .b5-input1{height:10%;width: 30%;
+                padding-left: 3%;
+                 margin-top: 5%; margin-left: 10%;
+                border-radius: 15px; border: none;
+            box-shadow: 1px 1px 15px;}
 
 
-
-
-
-
-
-
-
-
+            .b5-input2{height:10%;width: 30%;
+                margin-top: 5%; margin-left: 10%;
+                padding-left: 3%;
+               border-radius: 15px; border: none;
+           box-shadow: 1px 1px 15px;}
 
 
         
+           .b5-input3{height:10%;width: 74%;
+            padding-left: 3%;
+            margin-top: 5%; margin-left: 10%;
+           border-radius: 15px; border: none;
+       box-shadow: 1px 1px 15px; }
 
 
+       
+       .b5-input4{height:40%;width: 74%;
+        padding-left: 3%;
+        margin-top: 5%; margin-left: 10%;
+       border-radius: 15px; border: none;
+   box-shadow: 1px 1px 15px;}
+
+
+
+   
+
+
+
+   .baner6{ 
+    height:300px;width: 100%;
+    background-color: orange;
+    
+    } 
+
+
+.b6-box1{height: 80%; width:30%;  display: inline-block;
+ margin-left: 2%;}
+
+
+
+
+
+.b6-box2{height: 80%; width: 30%; display: inline-block;
+    margin-top: 1%;}
+
+
+
+
+.b6-box3{height: 80%; width: 30%;display: inline-block;
+    margin-top:1%; }
+
+
+
+
+
+
+.b6-ul-box{list-style: none;}
+
+
+
+.b6-li{padding-top: 3%; padding-left: 10%; color: white; 
+font-size: 100%;}
+
+.b6li1{font-size: 150%  ; padding-bottom: 10%;
+    padding-left: 10%; color: white;}
+
+
+.b6-input{width: 60%; height:30px;
+border-radius: 20px; border: none;}
+
+.b6-btn{background-color: white; color: orange; padding: 2% 5%;
+    border-radius: 20px;}
+
+
+    .b6li4{font-size: 200%; padding-top: 5%;}
 
 
         @media screen  and (max-width:800px){
@@ -405,9 +515,10 @@ font-size: 100%;}
                     height:500px;width: 100%;
                     
                     
+                    
                     }
                        
-                   .b3-heading{height: 20%; width: 100%;}
+                   .b3-heading{height: 20%; width: 100%; font-size:80%;}
                         .b3-btn-box{ height: 10%; width: 80%; } 
 
     
@@ -423,16 +534,51 @@ font-size: 100%;}
                     font-size: 50%;}
 
 
+                    .b3-box-img{
+                        border-top-right-radius: 10px;
+                        border-top-left-radius: 10px;
+                       }
+                   
 
 
                   
 
 
                 .baner4{ 
-                    height:500px;width: 100%;
+                    height:500px;width: 100%; display: block;
                     
                     }
                 
+
+
+
+                    .b4-box1{height: 40%; width: 70%;
+                        font-size:80%;
+                    margin-left: 15%;
+                    }
+                    
+                    
+                    .b4-box2{height: 40%; width: 70%;
+                      font-size:50%;
+                      margin-left: 15%;
+                    }
+                    
+                    
+                    
+                    .b4-btn{font-size: 60%; width: 20%;  margin-top:10% ;
+                    margin-left: 10%};
+
+
+
+
+
+
+
+
+
+
+
+
                 
                     .baner5{ 
                         height:500px;width: 100%;
@@ -440,11 +586,56 @@ font-size: 100%;}
                         }
                 
 
+                       
+                        .b5-heading{height: 20%; width: 100%; font-size:80%;}
 
 
+
+
+
+
+                        .b5-input1{height:10%;width: 95%;
+                            padding-left: 3%;
+                             margin-top: 5%; margin-left: 2%;
+                         }
+            
+            
+                        .b5-input2{height:10%;width: 95%;
+                            margin-top: 5%; margin-left: 2%;
+                            padding-left: 3%;
+                       }
+            
+            
+                    
+                       .b5-input3{height:10%;width: 95%;
+                        padding-left: 3%;
+                        margin-top: 5%; margin-left: 2%;
+                      }
+            
+            
+                   
+                   .b5-input4{height:25%;width: 95%;
+                    padding-left: 3%;
+                    margin-top: 10%; margin-left:2%;
+             }
+            
+            
+            
+            
+
+
+
+             .baner6{ 
+                height:150px;
+              
                 
+                } 
+            
+            
 
 
 
 
+
+                   
         }
