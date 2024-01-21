@@ -180,11 +180,11 @@ height: 70%; width: 80%;}
     }
 
 
-    .b3-btn-box{ height: 10%; width: 80%;  margin: auto;} 
+    .b3-btn-box{ height: 10%; width: 80%;  margin: auto; } 
 
 
 
-    .b3-button{background-color: green;
+    .b3-button{background-color: green; color: white;
         height:50%; width: 15%; margin:2% 1.5%;
     border-radius: 20px ;
 font-size: 100%;}
@@ -290,7 +290,7 @@ font-size: 100%;}
 
     .baner5{ 
         height:800px;width: 100%;
-        background-color: azure;
+        background-color: rgba(240, 255, 255, 0.849);
         
         } 
 
@@ -310,14 +310,14 @@ font-size: 100%;}
             .b5-input1{height:10%;width: 30%;
                 padding-left: 3%;
                  margin-top: 5%; margin-left: 10%;
-                border-radius: 15px; border: none;
+                border-radius: 15px; ;
             box-shadow: 1px 1px 15px;}
 
 
             .b5-input2{height:10%;width: 30%;
                 margin-top: 5%; margin-left: 10%;
                 padding-left: 3%;
-               border-radius: 15px; border: none;
+               border-radius: 15px; ;
            box-shadow: 1px 1px 15px;}
 
 
@@ -325,7 +325,7 @@ font-size: 100%;}
            .b5-input3{height:10%;width: 74%;
             padding-left: 3%;
             margin-top: 5%; margin-left: 10%;
-           border-radius: 15px; border: none;
+           border-radius: 15px; ;
        box-shadow: 1px 1px 15px; }
 
 
@@ -333,7 +333,7 @@ font-size: 100%;}
        .b5-input4{height:40%;width: 74%;
         padding-left: 3%; 
         margin-top: 5%; margin-left: 10%;
-       border-radius: 15px; border: none;
+       border-radius: 15px; ;
    box-shadow: 1px 1px 15px;}
 
 
